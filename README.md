@@ -1,3 +1,17 @@
+## Microservices test
+
+As per the spec I am choosing the option to submit a similar test. 
+I believe it meets 4/5 of the bonus points, the missing one being 
+Swagger. I have added some Swagger as a separate commit. See:
+
+http://localhost:8080/swagger-ui.html
+
+The requirement was to build a shop that 'scans' and 'voids' items.
+It had to support 'pricing rules' which are logical groupings of
+items with special prices. A time of 3 hours was suggested and the
+advice was to use comments regarding further considerations for a 
+complete production version. The original README contents is below:
+
 ## Intro
 
 The shop is implemented as a Spring Boot RESTful API.
@@ -21,7 +35,7 @@ See the example integration test for API usage
 
 * Stricter TDD approach starting with lowest level unit tests
 * Code coverage tool e.g. Jacoco
-* Edge case testing e.g. item not found with error handling e.g. ItemNotFoundException
+* Edge case testing and error handling e.g. ItemNotFoundException
 * Input validation
 * JSON responses for all API return scenarios
 
